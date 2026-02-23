@@ -34,6 +34,34 @@ h1 {
   border: 1px solid #e2e8f0;
 }
 
+@media (max-width: 767px) {
+  .container {
+    padding: 18px 12px 28px;
+  }
+
+  h1 {
+    font-size: 1.9rem;
+    line-height: 1.1;
+    margin-bottom: 8px;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    line-height: 1.35;
+    margin-bottom: 16px;
+  }
+
+  .chart-wrap {
+    height: 430px;
+    border-radius: 10px;
+    padding: 8px 6px 4px;
+  }
+
+  .note {
+    font-size: 0.9rem;
+  }
+}
+
 .note {
   margin-top: 14px;
   color: #475569;
